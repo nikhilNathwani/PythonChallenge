@@ -2,7 +2,10 @@ import sys
 import requests
 from bs4 import BeautifulSoup, Comment
 
+#ocr.html
+
 #look in HTML source, find hidden message in comment
+
 def getSource(url):
 	r= requests.get(url)
 	soup= BeautifulSoup(r.text)
