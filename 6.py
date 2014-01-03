@@ -16,7 +16,7 @@ def zip_journey(start):
 		text= channel.read("channel/"+str(next)+".txt")
 		print text
 		next= text.split()[-1]
-	print comments
+	print "comments",comments
 
 if __name__=='__main__':
 	global channel
